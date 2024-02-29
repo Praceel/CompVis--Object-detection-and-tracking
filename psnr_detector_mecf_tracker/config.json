@@ -1,0 +1,18 @@
+{
+	"detector": {
+		"window_size": 8,
+		"stride": 2,
+		"threshold_psnr": 25,
+		"threshold_act": 0.3,
+		"group_size": 5
+	},
+	"tracker": {
+		"fixed_window": 1,
+    	"multiscale": 1,
+    	"occlusion_threshold": 0.50,
+    	"stopping_threshold": 0.22
+	},
+	"processor": {
+		"save_video": 0
+	}
+}
